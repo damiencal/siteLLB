@@ -145,7 +145,7 @@
                     <div data-role="header">
                         <div data-role="navbar" data-iconpos="left"> 
                             <ul>
-                                <li><a href="tel:0603391860" data-role="button" data-icon="phone">Appeller</a></li>                     
+                                <li><a href="tel:" data-role="button" data-icon="phone">Appeller</a></li>                     
                             <?php if (isset($_SESSION['login'])){?>
                             <form method="POST">
                                 <input name="deconnexion" type="submit" value="Déconnexion">
